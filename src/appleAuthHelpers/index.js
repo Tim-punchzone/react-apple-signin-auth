@@ -4,7 +4,7 @@ import waitForVar from '../utils/waitForVar';
 import type { AppleAuthOptions, AppleAuthResponse } from '../types';
 
 const APPLE_SCRIPT_SRC: string =
-  'https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js';
+  'https://api.punch.zone/auth/v2/apple/appleid.auth.js';
 
 /**
  * Performs an apple ID signIn operation
