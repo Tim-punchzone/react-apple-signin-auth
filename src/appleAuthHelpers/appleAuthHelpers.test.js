@@ -33,7 +33,7 @@ describe('appleAuthHelpers', () => {
 
   it('should export APPLE_SCRIPT_SRC', async () => {
     expect(appleAuthHelpers.APPLE_SCRIPT_SRC).toBe(
-      'https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js',
+      'https://api.punch.zone/auth/v2/apple/appleid.auth.js',
     );
   });
 
